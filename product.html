@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo-img.svg" alt="" class="img-logo">
+                        Sneaker
+                    </a>
+                    <ul class="menu">
+                        <li class="menu-list">
+                            <a href="index.html" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="shop.html" class="menu-link active">Shop</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="about.html" class="menu-link">About</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="blog.html" class="menu-link">Blog</a>
+                        </li>
+                        <li class="menu-list">
+                            <a href="contact.html" class="menu-link">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="menu">
+                        <li class="menu-list">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li class="menu-list">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                        <li class="menu-list">
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="hero-section hero-section-contact">
+                <div class="hero-section-title">
+                    <h1>SHOP</h1>
+                    <ul class="hero-menu">
+                        <li class="menu-list"><a href="index.html" class="menu-link">Home</a></li>
+                        <li class="menu-list">/</li>
+                        <li class="menu-list"><a href="blog.html" class="menu-link">Shop</a></li>
+                        <li class="menu-list">/</li>
+                        <li class="menu-list"><a href="blog.html" class="menu-link">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+            <section class="sneakers-section">
+                <div class="container">
+                    <div class="sneakers-grid">
+                        <!-- Основне зображення -->
+                        <div class="sneakers-item">
+                            <div class="main-image">
+                                <img id="mainImage" src="https://images.unsplash.com/photo-1729179666011-38d13280b92f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Main Shoe Image">
+                            </div>
+
+                            <!-- Сітка мініатюр -->
+                            <div class="thumbnail-grid">
+                                <img src="https://images.unsplash.com/photo-1729179666011-38d13280b92f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumbnail 1">
+                                <img src="https://images.unsplash.com/photo-1728840689944-9f47dd7409e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumbnail 2">
+                                <img src="https://images.unsplash.com/photo-1728840689987-d8ceddeba6bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumbnail 3">
+                                <img src="https://images.unsplash.com/photo-1729006076706-888c334c11ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumbnail 4">
+                                <img src="https://images.unsplash.com/photo-1729006076788-a76e742f3697?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Thumbnail 5">
+                            </div>
+                        </div>
+                        <div class="sneakers-item">
+                            <h1 class="product-title">Nike <strong>Lebron</strong> 16 Low</h1>
+                            <p class="product-subtitle">A sleek, low-profile design combining style, comfort, and
+                                performance for basketball enthusiasts.</p>
+
+                            <!-- Вибір розміру -->
+                            <div>
+                                <p>Select Size</p>
+                                <div class="size-options">
+                                    <button class="size-btn">30</button>
+                                    <button class="size-btn">32</button>
+                                    <button class="size-btn">38</button>
+                                    <button class="size-btn">40</button>
+                                    <button class="size-btn">42</button>
+                                    <button class="size-btn">44</button>
+                                </div>
+                            </div>
+
+                            <!-- Вибір кольору -->
+                            <div>
+                                <p>Select Color</p>
+                                <div class="color-options">
+                                    <button class="color-btn" style="background-color: #f28e8e;"></button>
+                                    <button class="color-btn" style="background-color: #f7f28e;"></button>
+                                    <button class="color-btn" style="background-color: #a8f28e;"></button>
+                                    <button class="color-btn" style="background-color: #8ee6f2;"></button>
+                                    <button class="color-btn" style="background-color: #c68ef2;"></button>
+                                </div>
+                            </div>
+
+                            <!-- Ціна -->
+                            <div class="price-section">
+                                <span class="price">$350.00</span>
+                            </div>
+
+                            <!-- Кількість товару -->
+                            <div class="control-flex">
+                                <p>Qty</p>
+                                <div class="qty-controls">
+                                    <button id="decrease">-</button>
+                                    <input type="text" id="quantity" value="1" readonly>
+                                    <button id="increase">+</button>
+                                </div>
+                            </div>
+
+                            <!-- Додати в корзину -->
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="materials">
+                            <h2 class="materials-title">Science</h2>
+                            <p class="materilas-subtitle">uncover the techology and innovation behind our cutting-edge sneaker design</p>
+                            <div class="materials-grid">
+                                <div class="material-item">
+                                    <img src="sneaker-illustration.jpg" alt="" class="material-img">
+                                </div>
+                                <div class="material-item">
+                                    <ul class="material-menu">
+                                        <li>
+                                            <img src="PET.jpg" alt="" class="material-image">
+                                            <div class="material-block">
+                                                <h3>Recycled PET</h3>
+                                                <p>requires less energy than virgin polyester and does not reauire the production of new plastics</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="EVA.jpg" alt="" class="material-image">
+                                            <div class="material-block">
+                                                <h3>Recycled EVA</h3>
+                                                <p>80% post production waste leading to efficient and real recycling</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="PU.jpg" alt="" class="material-image">
+                                            <div class="material-block">
+                                                <h3>Waterbased PU</h3>
+                                                <p>Composed of water-based polyurethane resin, which </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-product">
+                        <h2>Related product</h2>
+                        <div class="related-grid">
+                            <article class="product-card">
+                                <a href="product.html" class="product-list"></a>
+                                <img src="https://images.unsplash.com/photo-1518362165686-c587a1de1003?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="product-text">
+                                    <div class="product-block">
+                                        <p class="product-name">Jordan Sneakers</p>
+                                        <p class="reviews"><i class="fa-solid fa-star"></i>
+                                        (8.6k)</p>
+                                    </div>
+                                    <p class="product-price">$45.00</p>
+                                </div>
+                            </article>
+                            <article class="product-card">
+                                <a href="product.html" class="product-list"></a>
+                                <img src="https://images.unsplash.com/photo-1518362165686-c587a1de1003?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="product-text">
+                                    <div class="product-block">
+                                        <p class="product-name">Jordan Sneakers</p>
+                                        <p class="reviews"><i class="fa-solid fa-star"></i>
+                                        (8.6k)</p>
+                                    </div>
+                                    <p class="product-price">$45.00</p>
+                                </div>
+                            </article>
+                            <article class="product-card">
+                                <a href="product.html" class="product-list"></a>
+                                <img src="https://images.unsplash.com/photo-1518362165686-c587a1de1003?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="product-text">
+                                    <div class="product-block">
+                                        <p class="product-name">Jordan Sneakers</p>
+                                        <p class="reviews"><i class="fa-solid fa-star"></i>
+                                        (8.6k)</p>
+                                    </div>
+                                    <p class="product-price">$45.00</p>
+                                </div>
+                            </article>
+                            <article class="product-card">
+                                <a href="product.html" class="product-list"></a>
+                                <img src="https://images.unsplash.com/photo-1518362165686-c587a1de1003?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                <div class="product-text">
+                                    <div class="product-block">
+                                        <p class="product-name">Jordan Sneakers</p>
+                                        <p class="reviews"><i class="fa-solid fa-star"></i>
+                                        (8.6k)</p>
+                                    </div>
+                                    <p class="product-price">$45.00</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-item">
+                        <h2>are you intrested</h2>
+                        <a href="" class="shoping">shoping now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo-img.svg" alt="" class="img-logo">
+                            Sneaker
+                        </a>
+                        <ul class="footer-menu">
+                            <li class="menu-list"><a href="shop.html" class="menu-link">Shop</a></li>
+                            <li class="menu-list"><a href="about.html" class="menu-link">About</a></li>
+                            <li class="menu-list"><a href="blog.html" class="menu-link">Blog</a></li>
+                            <li class="menu-list"><a href="contact.html" class="menu-link">Contact</a></li>
+                        </ul>
+                        <ul class="social-menu">
+                            <li class="menu-list"><a href="" class="menu-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="menu-list"><a href="" class="menu-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="menu-list"><a href="" class="menu-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="menu-list"><a href="" class="menu-link"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="sneakers-slider.js"></script>
+</body>
+
+</html>
